@@ -1,0 +1,108 @@
+** Pattern 1 (Threads): creating 5 threads
+Main: created thread 0
+Main: created thread 1
+Thread 0: will sleep for 8 seconds
+Thread 1: will sleep for 7 seconds
+Main: created thread 2
+Thread 2: will sleep for 2 seconds
+Main: created thread 3
+Thread 3: will sleep for 4 seconds
+Main: created thread 4
+Thread 4: will sleep for 2 seconds
+Thread 2: exiting
+Thread 4: exiting
+Thread 3: exiting
+Thread 1: exiting
+Thread 0: exiting
+Main: thread 0 has exited
+Main: thread 1 has exited
+Main: thread 2 has exited
+Main: thread 3 has exited
+Main: thread 4 has exited
+** Pattern 1: All threads have exited
+** Pattern 1 (Threads): creating 10 threads
+Main: created thread 0
+Thread 0: will sleep for 8 seconds
+Main: created thread 1
+Thread 1: will sleep for 7 seconds
+Main: created thread 2
+Thread 2: will sleep for 2 seconds
+Main: created thread 3
+Thread 3: will sleep for 4 seconds
+Main: created thread 4
+Thread 4: will sleep for 2 seconds
+Main: created thread 5
+Thread 5: will sleep for 8 seconds
+Main: created thread 6
+Thread 6: will sleep for 3 seconds
+Main: created thread 7
+Thread 7: will sleep for 5 seconds
+Main: created thread 8
+Main: created thread 9
+Thread 8: will sleep for 2 seconds
+Thread 9: will sleep for 6 seconds
+Thread 2: exiting
+Thread 4: exiting
+Thread 8: exiting
+Thread 6: exiting
+Thread 3: exiting
+Thread 7: exiting
+Thread 9: exiting
+Thread 1: exiting
+Thread 0: exiting
+Main: thread 0 has exited
+Main: thread 1 has exited
+Main: thread 2 has exited
+Main: thread 3 has exited
+Main: thread 4 has exited
+Thread 5: exiting
+Main: thread 5 has exited
+Main: thread 6 has exited
+Main: thread 7 has exited
+Main: thread 8 has exited
+Main: thread 9 has exited
+** Pattern 1: All threads have exited
+** Pattern 2 (Threads): creating 4 threads
+Thread 0: will sleep for 8 seconds
+Thread 0: creating thread 1
+Thread 1: will sleep for 7 seconds
+Thread 1: creating thread 2
+Thread 2: will sleep for 2 seconds
+Thread 2: creating thread 3
+Thread 3: will sleep for 4 seconds
+Thread 3: exiting
+Thread 2: thread 3 has exited
+Thread 2: exiting
+Thread 1: thread 2 has exited
+Thread 1: exiting
+Thread 0: thread 1 has exited
+Thread 0: exiting
+** Pattern 2: All threads have exited
+** Pattern 2 (Threads): creating 7 threads
+Thread 0: will sleep for 8 seconds
+Thread 0: creating thread 1
+Thread 1: will sleep for 7 seconds
+Thread 1: creating thread 2
+Thread 2: will sleep for 2 seconds
+Thread 2: creating thread 3
+Thread 3: will sleep for 4 seconds
+Thread 3: creating thread 4
+Thread 4: will sleep for 2 seconds
+Thread 4: creating thread 5
+Thread 5: will sleep for 8 seconds
+Thread 5: creating thread 6
+Thread 6: will sleep for 3 seconds
+Thread 6: exiting
+Thread 5: thread 6 has exited
+Thread 5: exiting
+Thread 4: thread 5 has exited
+Thread 4: exiting
+Thread 3: thread 4 has exited
+Thread 3: exiting
+Thread 2: thread 3 has exited
+Thread 2: exiting
+Thread 1: thread 2 has exited
+Thread 1: exiting
+Thread 0: thread 1 has exited
+Thread 0: exiting
+** Pattern 2: All threads have exited
